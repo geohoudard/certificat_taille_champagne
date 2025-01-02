@@ -17,15 +17,12 @@ with open(csv_file, mode='r', encoding='utf-8') as file:
         question_data = {}
 
         # Traiter la première colonne : ID et question
-        id_question = row[0].split(";", 1)  # Séparer l'ID de la question
-        question_data["id"] = id_question[0]
-        question_data["question_text"] = id_question[1] if len(id_question) > 1 else ""
-
-        # Ajouter les options et la réponse correcte
-        question_data["option_a"] = row[1] if len(row) > 1 else ""
-        question_data["option_b"] = row[2] if len(row) > 2 else ""
-        question_data["option_c"] = row[3] if len(row) > 3 else ""
-        question_data["correct_option"] = row[4] if len(row) > 4 else ""
+        question_data["id"] = row[0]
+        question_data["question_text"] = row[1]
+        question_data["option_a"] = row[2] if len(row) > 2 else ""
+        question_data["option_b"] = row[3] if len(row) > 3 else ""
+        question_data["option_c"] = row[4] if len(row) > 4 else ""
+        question_data["correct_option"] = row[5]
 
         # Ajouter la question à la liste
         questions.append(question_data)
