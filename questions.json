@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Quelle est la capitale de la France ?",
+        "options": ["Berlin", "Madrid", "Paris", "Rome"],
+        "correctAnswer": "Paris"
+    },
+    {
+        "question": "Combien de continents y a-t-il ?",
+        "options": ["5", "6", "7", "8"],
+        "correctAnswer": "7"
+    },
+    {
+        "question": "Qui a écrit 'Les Misérables' ?",
+        "options": ["Victor Hugo", "Émile Zola", "Molière", "Flaubert"],
+        "correctAnswer": "Victor Hugo"
+    },
+    {
+        "question": "Quel est le plus grand océan ?",
+        "options": ["Atlantique", "Indien", "Arctique", "Pacifique"],
+        "correctAnswer": "Pacifique"
+    },
+    {
+        "question": "Quel est l'élément chimique symbole O ?",
+        "options": ["Or", "Oxygène", "Ozone", "Osmium"],
+        "correctAnswer": "Oxygène"
+    }
+]
