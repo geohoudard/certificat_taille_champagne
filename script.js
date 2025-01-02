@@ -65,6 +65,17 @@ function endQuiz() {
     document.getElementById('question').textContent = 'Quiz terminé !';
     document.getElementById('options').innerHTML = '';
     document.getElementById('score').textContent = `Votre score : ${score}/${questions.length}`;
+    document.getElementById('next-button').style.display = 'none';
+    document.getElementById('restart-button').style.display = 'block'; // Afficher le bouton Recommencer
+}
+
+// Recommencer le quiz
+function restartQuiz() {
+    currentQuestionIndex = 0;
+    score = 0;
+    document.getElementById('restart-button').style.display = 'none'; // Cacher le bouton Recommencer
+    document.getElementById('score').textContent = '';
+    displayQuestion();
 }
 
 // Initialiser le quiz en chargeant les questions
