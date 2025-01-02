@@ -2,13 +2,15 @@ let currentQuestionIndex = 0;
 let score = 0;
 let questions = [];
 
-// Charger les questions à partir du fichier JSON
-async function loadQuestions() {
+// Charger le fichier JSON
+async function loadJSON() {
     try {
-        const response = await fetch('data/questions.json'); // Charger le fichier JSON
+        const response = await fetch('data/questions.json'); // Assurez-vous que le fichier JSON est bien placé dans le même répertoire
         if (!response.ok) throw new Error('Erreur lors du chargement du fichier JSON');
-        questions = await response.json(); // Parser le JSON
-        displayQuestion(); // Afficher la première question
+        const jsonData = await response.json();
+        questions = jsonData;
+        shuffleQuestions();
+        displayQuestion();
     } catch (error) {
         console.error('Erreur :', error);
         document.getElementById('quiz-container').textContent =
@@ -16,46 +18,59 @@ async function loadQuestions() {
     }
 }
 
-// Afficher la question et les options
+// Mélanger les questions
+function shuffleQuestions() {
+    questions = questions.sort(() => 0.5 - Math.random());
+}
+
+// Afficher une question
 function displayQuestion() {
     if (currentQuestionIndex >= questions.length) {
         endQuiz();
         return;
     }
 
-    const questionData = questions[currentQuestionIndex];
-    document.getElementById('question').textContent = questionData.question;
+    const currentQuestion = questions[currentQuestionIndex];
+
+    const questionContainer = document.getElementById('question');
+    questionContainer.textContent = currentQuestion.question_text || 'Question non définie';
 
     const optionsContainer = document.getElementById('options');
-    optionsContainer.innerHTML = ''; // Réinitialiser les options
+    optionsContainer.innerHTML = '';
 
-    questionData.options.forEach(option => {
-        const button = document.createElement('button');
-        button.textContent = option;
-        button.onclick = () => checkAnswer(option);
-        optionsContainer.appendChild(button);
+    // Créer les boutons pour les options
+    ['a', 'b', 'c'].forEach(option => {
+        const optionKey = `option_${option}`;
+        if (currentQuestion[optionKey]) {
+            const button = document.createElement('button');
+            button.textContent = currentQuestion[optionKey];
+            button.onclick = () => checkAnswer(option);
+            optionsContainer.appendChild(button);
+        }
     });
 }
 
 // Vérifier la réponse
 function checkAnswer(selectedOption) {
-    const correctAnswer = questions[currentQuestionIndex].correctAnswer;
+    const currentQuestion = questions[currentQuestionIndex];
     const resultContainer = document.getElementById('result');
-    if (selectedOption === correctAnswer) {
+    const correctOption = currentQuestion.correct_option.toLowerCase();
+
+    // Vérification de la bonne réponse
+    if (selectedOption === correctOption) {
         score++;
         resultContainer.textContent = 'Bonne réponse !';
     } else {
-        resultContainer.textContent = `Mauvaise réponse. La bonne réponse était : ${correctAnswer}.`;
+        resultContainer.textContent = `Mauvaise réponse. La bonne réponse était : ${correctOption}.`;
     }
 
-    // Désactiver les boutons et afficher le score
     document.getElementById('next-button').style.display = 'block';
 }
 
 // Passer à la question suivante
 function nextQuestion() {
     currentQuestionIndex++;
-    document.getElementById('result').textContent = ''; // Réinitialiser le résultat
+    document.getElementById('result').textContent = '';
     displayQuestion();
     document.getElementById('next-button').style.display = 'none';
 }
@@ -66,17 +81,17 @@ function endQuiz() {
     document.getElementById('options').innerHTML = '';
     document.getElementById('score').textContent = `Votre score : ${score}/${questions.length}`;
     document.getElementById('next-button').style.display = 'none';
-    document.getElementById('restart-button').style.display = 'block'; // Afficher le bouton Recommencer
+    document.getElementById('restart-button').style.display = 'block';
 }
 
 // Recommencer le quiz
 function restartQuiz() {
     currentQuestionIndex = 0;
     score = 0;
-    document.getElementById('restart-button').style.display = 'none'; // Cacher le bouton Recommencer
+    document.getElementById('restart-button').style.display = 'none';
     document.getElementById('score').textContent = '';
     displayQuestion();
 }
 
-// Initialiser le quiz en chargeant les questions
-loadQuestions();
+// Charger les questions au démarrage
+loadJSON();
