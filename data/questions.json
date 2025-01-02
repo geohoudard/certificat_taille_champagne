@@ -78,5 +78,805 @@
         "option_b": "En faible quantité et de fort diamètre",
         "option_c": "Peu développés et de diamètre faible",
         "correct_option": "a"
+    },
+    {
+        "id": "2.1",
+        "question_text": "Pour le Pinot Noir, quel système de taille ne peut-on pas pratiquer ?",
+        "option_a": "Guyot",
+        "option_b": "Chablis",
+        "option_c": "Vallée de la Marne",
+        "correct_option": "c"
+    },
+    {
+        "id": "2.2",
+        "question_text": "La rentrure est autorisée dans les systèmes de taille suivants :",
+        "option_a": "Chablis et Vallée de la Marne",
+        "option_b": "Guyot simple et double",
+        "option_c": "Dans tous les systèmes de taille champenois",
+        "correct_option": "a"
+    },
+    {
+        "id": "2.3",
+        "question_text": "Un prolongement c’est :",
+        "option_a": "Un bois à fruit de 5 à 6 yeux situé à l’extrémité d’une charpente",
+        "option_b": "Un bois à fruit de plus de 6 yeux situé à l’extrémité d’une charpente",
+        "option_c": "Un bois à fruit de 2 yeux situé sur la souche",
+        "correct_option": "a"
+    },
+    {
+        "id": "2.4",
+        "question_text": "Le lancement de l’année effectué en Chablis :",
+        "option_a": "Compte pour une charpente",
+        "option_b": "Ne compte pas pour une charpente",
+        "option_c": "Remplace un prolongement",
+        "correct_option": "a"
+    },
+    {
+        "id": "2.5",
+        "question_text": "Quel est le pourcentage annuel maximum de rajeunissement pour une parcelle taillée en Cordon ?",
+        "option_a": "Non limité",
+        "option_b": "20%",
+        "option_c": "30%",
+        "correct_option": "b"
+    },
+    {
+        "id": "2.6",
+        "question_text": "L’établissement d’un retour en Cordon, c’est la confection :",
+        "option_a": "D’une charpente en sens opposé à celle primitivement existante",
+        "option_b": "D’un lancement dans le sens normal de la végétation",
+        "option_c": "D’un prolongement à partir d’un courson situé sur la charpente",
+        "correct_option": "a"
+    },
+    {
+        "id": "2.7",
+        "question_text": "En Guyot simple, sur la souche il est conseillé de :",
+        "option_a": "Raser toutes les coupes, afin de ne pas obtenir de rejet",
+        "option_b": "Ne pas raser toutes les coupes afin d’obtenir des rejets",
+        "option_c": "Ne pas raser une des coupes afin d’obtenir des rejets",
+        "correct_option": "c"
+    },
+    {
+        "id": "2.8",
+        "question_text": "Quelle est la charge maximale de la baguette dans la taille type de la Vallée de la Marne ?",
+        "option_a": "8 yeux francs",
+        "option_b": "9 yeux francs",
+        "option_c": "10 yeux francs",
+        "correct_option": "b"
+    },
+    {
+        "id": "2.9",
+        "question_text": "Pour diminuer les risques de T.M.S. il est conseillé d’alterner les travaux (taille, liage, travail en cave…).",
+        "option_a": "VRAI",
+        "option_b": "FAUX",
+        "option_c": "",
+        "correct_option": "a"
+    },
+    {
+        "id": "2.10",
+        "question_text": "Lors de l’installation du Guyot arcure, quel est l’écartement entre les deux fils ?",
+        "option_a": "15 cm",
+        "option_b": "20 cm",
+        "option_c": "25 cm",
+        "correct_option": "b"
+    },
+    {
+        "id": "3.1",
+        "question_text": "La somme de l’écartement (entre rangs) et de la distance (entre souches) ne peut être supérieure à :",
+        "option_a": "2 m 70",
+        "option_b": "2 m 50",
+        "option_c": "3 m 00",
+        "correct_option": "c"
+    },
+    {
+        "id": "3.2",
+        "question_text": "L’écartement maximum entre les rangs de vigne est de :",
+        "option_a": "1 m 50",
+        "option_b": "1 m 60",
+        "option_c": "2 m 00",
+        "correct_option": "c"
+    },
+    {
+        "id": "3.3",
+        "question_text": "La baguette c’est :",
+        "option_a": "Un bois à fruit taillé à 2-3 yeux",
+        "option_b": "Un bois à fruit de 4 à 6 yeux situé à l’extrémité d’une charpente",
+        "option_c": "Un bois à fruit de 8 à 12 yeux taillé à partir du courson sur la souche",
+        "correct_option": "c"
+    },
+    {
+        "id": "3.4",
+        "question_text": "La rentrure effectuée sur une charpente de chablis est taillée au maximum à :",
+        "option_a": "2 yeux francs",
+        "option_b": "3 yeux francs",
+        "option_c": "4 yeux francs",
+        "correct_option": "a"
+    },
+    {
+        "id": "3.5",
+        "question_text": "En taille Cordon de Royat, le courson c’est :",
+        "option_a": "Un bois fructifère taillé à 5 ou 6 yeux",
+        "option_b": "Un bois de remplacement qui ne porte pas de fruit",
+        "option_c": "Un bois fructifère taillé à 3 yeux maximum",
+        "correct_option": "c"
+    },
+    {
+        "id": "3.6",
+        "question_text": "L’établissement de coursons dans la partie verticale de la charpente (montée) est :",
+        "option_a": "Non admis",
+        "option_b": "Toléré",
+        "option_c": "Accepté",
+        "correct_option": "a"
+    },
+    {
+        "id": "3.7",
+        "question_text": "La taille de la Vallée de la Marne type est taillée comme suit :",
+        "option_a": "1 courson à 3 y, 1 baguette à 9 y, 1 prolongement à 6 y",
+        "option_b": "1 courson à 3 y, 1 baguette à 7 y, 1 prolongement à 7 y",
+        "option_c": "2 courson à 2 y, 1 baguette à 9 y, 1 prolongement à 6 y",
+        "correct_option": "a"
+    },
+    {
+        "id": "3.8",
+        "question_text": "En vigne étroite plantée à 1 m entre rangs, peut-on arracher 1 rang sur 2 pour passer en conduite VSL ?",
+        "option_a": "oui",
+        "option_b": "non",
+        "option_c": "",
+        "correct_option": "b"
+    },
+    {
+        "id": "3.9",
+        "question_text": "Pour diminuer les risques de T.M.S. il est conseillé de commencer à tailler dans les vignes vigoureuses.",
+        "option_a": "VRAI",
+        "option_b": "FAUX",
+        "option_c": "",
+        "correct_option": "b"
+    },
+    {
+        "id": "3.10",
+        "question_text": "Le débourrement c’est :",
+        "option_a": "Les feuilles qui commencent à changer de couleur",
+        "option_b": "Les raisins qui changent de couleur",
+        "option_c": "Les bourgeons qui commencent à gonfler et à s’ouvrir",
+        "correct_option": "c"
+    },
+    {
+        "id": "4.1",
+        "question_text": "On peut tailler le Meunier :",
+        "option_a": "En Cordon et Chablis uniquement",
+        "option_b": "En Vallée de la Marne uniquement",
+        "option_c": "Dans tous les systèmes de taille champenois",
+        "correct_option": "c"
+    },
+    {
+        "id": "4.2",
+        "question_text": "Les distances permises entre souches (sur le rang) sont de :",
+        "option_a": "0 m 70 à 1 m 50",
+        "option_b": "0 m 80 à 1m 40",
+        "option_c": "0 m 90 à 1 m 50",
+        "correct_option": "a"
+    },
+    {
+        "id": "4.3",
+        "question_text": "Le rachet c’est :",
+        "option_a": "Un bois taillé à 2 yeux sur la souche",
+        "option_b": "Un bois taillé à 2 yeux sur une charpente",
+        "option_c": "Un bois taillé à plus de 2 y. à l’extrémité d’une charpente",
+        "correct_option": "a"
+    },
+    {
+        "id": "4.4",
+        "question_text": "Pour la taille chablis, quel est le nombre maximal de charpentes que peuvent porter les ceps dans une plantation à 1 m 30 ?",
+        "option_a": "1/3 des souches à 4 charpentes et 2/3 des souches à 3",
+        "option_b": "2/3 des souches à 4 charpentes et 1/3 des souches à 3",
+        "option_c": "2/3 des souches à 4 charpentes et 1/3 des souches à 5",
+        "correct_option": "c"
+    },
+    {
+        "id": "4.5",
+        "question_text": "La hauteur maximale pour l’établissement d’une charpente de Cordon est de :",
+        "option_a": "40 cm au-dessus du niveau du sol",
+        "option_b": "50 cm au-dessus du niveau du sol",
+        "option_c": "60 cm au-dessus du niveau du sol",
+        "correct_option": "c"
+    },
+    {
+        "id": "4.6",
+        "question_text": "La hauteur maximale d’installation du bourgeon terminal dans un Guyot arcure est de :",
+        "option_a": "50 cm",
+        "option_b": "60 cm",
+        "option_c": "80 cm",
+        "correct_option": "b"
+    },
+    {
+        "id": "4.7",
+        "question_text": "La taille Vallée de la Marne est autorisée exclusivement :",
+        "option_a": "En région Vallée de la Marne",
+        "option_b": "Pour tous les cépages",
+        "option_c": "Pour le cépage Meunier exclusivement",
+        "correct_option": "c"
+    },
+    {
+        "id": "4.8",
+        "question_text": "La variante de la taille classique de la Vallée de la Marne est prévue afin de :",
+        "option_a": "Conserver davantage de vieux bois sur la souche",
+        "option_b": "Pratiquer la taille de la Vallée de la Marne en Chardonnay",
+        "option_c": "Planter à une distance de 80 cm entre souches",
+        "correct_option": "a"
+    },
+    {
+        "id": "4.9",
+        "question_text": "Pour diminuer les risques de T.M.S. il est conseillé d’affiler son sécateur une fois par jour.",
+        "option_a": "VRAI",
+        "option_b": "FAUX",
+        "option_c": "",
+        "correct_option": "b"
+    },
+    {
+        "id": "4.10",
+        "question_text": "Un sarment bien aoûté se reconnaît :",
+        "option_a": "A sa couleur marron sur toute sa longueur",
+        "option_b": "A son diamètre",
+        "option_c": "A la longueur de ses mérithalles",
+        "correct_option": "a"
+    },
+    {
+        "id": "5.1",
+        "question_text": "Les cépages Pinot Noir, Pinot Blanc et Pinot Gris peuvent se tailler :",
+        "option_a": "Dans tous les systèmes de taille champenois",
+        "option_b": "En Chablis, en Cordon et en Guyot",
+        "option_c": "En Vallée de la Marne uniquement",
+        "correct_option": "b"
+    },
+    {
+        "id": "5.2",
+        "question_text": "Un bois fructifère est un bois :",
+        "option_a": "De 1 an issu d’un bois de 2 ans",
+        "option_b": "De 1 an issu d’un bois de plus de 2 ans",
+        "option_c": "De 2 ans",
+        "correct_option": "a"
+    },
+    {
+        "id": "5.3",
+        "question_text": "On appelle bourillon :",
+        "option_a": "Un oeil détaché de la couronne",
+        "option_b": "Un bourgeon situé à l’extrémité d’une baguette",
+        "option_c": "L’oeil le plus développé des yeux de la couronne",
+        "correct_option": "c"
+    },
+    {
+        "id": "5.4",
+        "question_text": "Quelle est la charge maximale du prolongement d’un chablis en Chardonnay ?",
+        "option_a": "4 yeux francs",
+        "option_b": "5 yeux francs",
+        "option_c": "6 yeux francs",
+        "correct_option": "b"
+    },
+    {
+        "id": "5.5",
+        "question_text": "En Cordon de Royat, le rachet est taillé au maximum à :",
+        "option_a": "1 oeil franc",
+        "option_b": "2 yeux francs",
+        "option_c": "3 yeux francs",
+        "correct_option": "b"
+    },
+    {
+        "id": "5.6",
+        "question_text": "Quelle est la hauteur maximale de liage du Guyot double en Pinot Noir ?",
+        "option_a": "60 cm",
+        "option_b": "40 cm",
+        "option_c": "50 cm",
+        "correct_option": "a"
+    },
+    {
+        "id": "5.7",
+        "question_text": "La hauteur maximale au-dessus du niveau du sol pour l’établissement de la taille Vallée de la Marne est de :",
+        "option_a": "40 cm",
+        "option_b": "50 cm",
+        "option_c": "60 cm",
+        "correct_option": "c"
+    },
+    {
+        "id": "5.8",
+        "question_text": "Je veux planter à 2 m entre rangs et 0,90 m sur le rang, est-ce possible ?",
+        "option_a": "oui",
+        "option_b": "non",
+        "option_c": "",
+        "correct_option": "a"
+    },
+    {
+        "id": "5.9",
+        "question_text": "Pour diminuer les risques de T.M.S. il est conseillé d’affiler son sécateur environ toutes les heures.",
+        "option_a": "VRAI",
+        "option_b": "FAUX",
+        "option_c": "",
+        "correct_option": "a"
+    },
+    {
+        "id": "5.10",
+        "question_text": "L’acrotonie est le phénomène suivant :",
+        "option_a": "Le développement plus précoce et plus important des bourgeons de l’extrémité d’un bois",
+        "option_b": "Le développement plus précoce et plus important des bourgeons de la base d’un bois",
+        "option_c": "Le développement de bourgeons latents",
+        "correct_option": "a"
+    },
+    {
+        "id": "6.1",
+        "question_text": "Les cépages Chardonnay, Arbane, Petit Meslier et Voltis peuvent se tailler :",
+        "option_a": "Dans tous les systèmes de taille champenois",
+        "option_b": "En Chablis, en Cordon et en Guyot",
+        "option_c": "En Vallée de la Marne uniquement",
+        "correct_option": "b"
+    },
+    {
+        "id": "6.2",
+        "question_text": "L’oeil franc est celui qui :",
+        "option_a": "donne les entre cœurs",
+        "option_b": "est appelé bourillon",
+        "option_c": "est séparé de l’empattement du sarment",
+        "correct_option": "c"
+    },
+    {
+        "id": "6.3",
+        "question_text": "Quelle et la hauteur maximale du deuxième fil pour un Guyot présentant une arcure ?",
+        "option_a": "40 cm",
+        "option_b": "60 cm",
+        "option_c": "80 cm",
+        "correct_option": "c"
+    },
+    {
+        "id": "6.4",
+        "question_text": "Quelle est la charge maximale du prolongement d’un chablis en Pinot Noir ?",
+        "option_a": "4 yeux francs",
+        "option_b": "5 yeux francs",
+        "option_c": "6 yeux francs",
+        "correct_option": "b"
+    },
+    {
+        "id": "6.5",
+        "question_text": "Quel est l’espacement minimal des coursons d’un Cordon de Royat ?",
+        "option_a": "10 cm",
+        "option_b": "15 cm",
+        "option_c": "20 cm",
+        "correct_option": "b"
+    },
+    {
+        "id": "6.6",
+        "question_text": "Pour un système de taille en Guyot double, on peut pratiquer au maximum sur la souche :",
+        "option_a": "1 courson à 2 yeux",
+        "option_b": "2 coursons à 2 yeux",
+        "option_c": "1 courson à 3 yeux",
+        "correct_option": "b"
+    },
+    {
+        "id": "6.7",
+        "question_text": "Combien y a-t-il de coursons à la base de la souche, dans la taille Vallée de la Marne ?",
+        "option_a": "3",
+        "option_b": "2",
+        "option_c": "1",
+        "correct_option": "c"
+    },
+    {
+        "id": "6.8",
+        "question_text": "Les tendinites sont des :",
+        "option_a": "Élongations des tendons",
+        "option_b": "Inflammations des tendons",
+        "option_c": "Ruptures des tendons",
+        "correct_option": "b"
+    },
+    {
+        "id": "6.9",
+        "question_text": "L’affilage du sécateur consiste à affiler :",
+        "option_a": "Uniquement le biseau de la lame",
+        "option_b": "Uniquement le contre biseau",
+        "option_c": "Le biseau et le contre biseau",
+        "correct_option": "c"
+    },
+    {
+        "id": "6.10",
+        "question_text": "Le prétaillage consiste à :",
+        "option_a": "Supprimer les sarments inutiles",
+        "option_b": "Couper l’extrémité des sarments après la chute des feuilles",
+        "option_c": "Supprimer les bourgeons inutiles",
+        "correct_option": "b"
+    },
+    {
+        "id": "7.1",
+        "question_text": "La taille doit être effectuée au plus tard avant le stade phénologique suivant :",
+        "option_a": "Bourgeon dans le coton",
+        "option_b": "Premières feuilles étalées",
+        "option_c": "4 feuilles étalées",
+        "correct_option": "c"
+    },
+    {
+        "id": "7.2",
+        "question_text": "Une jeune vigne entre en appellation :",
+        "option_a": "Dès l’année de plantation",
+        "option_b": "A la 2ème feuille",
+        "option_c": "A la 3ème feuille",
+        "correct_option": "c"
+    },
+    {
+        "id": "7.3",
+        "question_text": "Je veux planter une vigne à 1 m 45 entre le rang et à 1 m sur le rang, est-ce possible ?",
+        "option_a": "Oui",
+        "option_b": "Non",
+        "option_c": "",
+        "correct_option": "a"
+    },
+    {
+        "id": "7.4",
+        "question_text": "Quelle est la charge maximale du prolongement d’un chablis en Meunier, en Arbane ou en Petit Meslier ?",
+        "option_a": "4 yeux francs",
+        "option_b": "5 yeux francs",
+        "option_c": "6 yeux francs",
+        "correct_option": "b"
+    },
+    {
+        "id": "7.5",
+        "question_text": "Les coursons de Cordon de Royat, pour les cépages Pinot Noir, Pinot Blanc, Pinot Gris et Meunier sont taillés au maximum à :",
+        "option_a": "2 yeux francs",
+        "option_b": "3 yeux francs",
+        "option_c": "4 yeux francs",
+        "correct_option": "b"
+    },
+    {
+        "id": "7.6",
+        "question_text": "En Guyot double, la charge des 2 baguettes est au maximum de :",
+        "option_a": "8 yeux chacune",
+        "option_b": "1 baguette à 6 yeux et 1 baguette à 8 yeux",
+        "option_c": "10 yeux chacune",
+        "correct_option": "a"
+    },
+    {
+        "id": "7.7",
+        "question_text": "Quelle est la charge maximale d’un courson sur la souche dans la taille type de la Vallée de la Marne ?",
+        "option_a": "1 oeil franc",
+        "option_b": "2 yeux francs",
+        "option_c": "3 yeux francs",
+        "correct_option": "c"
+    },
+    {
+        "id": "7.8",
+        "question_text": "Les tendinites sont dues à une hyper sollicitation des membres.",
+        "option_a": "VRAI",
+        "option_b": "FAUX",
+        "option_c": "",
+        "correct_option": "a"
+    },
+    {
+        "id": "7.9",
+        "question_text": "Pour les tailles Guyot, lesquelles peuvent présenter une arcure ?",
+        "option_a": "simple et double",
+        "option_b": "simple uniquement",
+        "option_c": "asymétrique",
+        "correct_option": "a"
+    },
+    {
+        "id": "7.10",
+        "question_text": "L’ébourgeonnage c’est l’opération qui consiste à supprimer :",
+        "option_a": "Les bourgeons de la couronne",
+        "option_b": "Les bourgeons inutiles",
+        "option_c": "Les bourgeons donnant les entre-coeurs",
+        "correct_option": "b"
+    },
+    {
+        "id": "8.1",
+        "question_text": "A quel stade maximum doit être réalisé le liage ?",
+        "option_a": "4 feuilles étalées",
+        "option_b": "Bourgeon hivernal",
+        "option_c": "Floraison",
+        "correct_option": "c"
+    },
+    {
+        "id": "8.2",
+        "question_text": "Une superposition est :",
+        "option_a": "Tolérée",
+        "option_b": "Interdite",
+        "option_c": "Acceptée",
+        "correct_option": "b"
+    },
+    {
+        "id": "8.3",
+        "question_text": "Quel est le nombre d’yeux maximal pour un Guyot double présentant une arcure ?",
+        "option_a": "10",
+        "option_b": "12",
+        "option_c": "15",
+        "correct_option": "a"
+    },
+    {
+        "id": "8.4",
+        "question_text": "Quelle est la charge maximale du lancement d’un chablis en Chardonnay ?",
+        "option_a": "4 yeux francs",
+        "option_b": "5 yeux francs",
+        "option_c": "non limitée",
+        "correct_option": "b"
+    },
+    {
+        "id": "8.5",
+        "question_text": "Les coursons de Cordon de Royat, pour les cépages Chardonnay, Arbane et Petit Meslier sont taillés au maximum à :",
+        "option_a": "2 yeux francs",
+        "option_b": "3 yeux francs",
+        "option_c": "4 yeux francs",
+        "correct_option": "b"
+    },
+    {
+        "id": "8.6",
+        "question_text": "Le Guyot simple comprend :",
+        "option_a": "1 courson à 3 yeux et une baguette à 10 yeux",
+        "option_b": "2 coursons à 2 yeux et 1 baguette à 8 yeux",
+        "option_c": "1 courson à 3 yeux et 2 baguettes à 8 yeux",
+        "correct_option": "a"
+    },
+    {
+        "id": "8.7",
+        "question_text": "Dans la taille de la Vallée de la Marne, on peut effectuer une rentrure à combien d’yeux au maximum ?",
+        "option_a": "à 1 oeil franc",
+        "option_b": "à 2 yeux francs",
+        "option_c": "à 3 yeux francs",
+        "correct_option": "b"
+    },
+    {
+        "id": "8.8",
+        "question_text": "Le syndrome du canal carpien est un Trouble Musculo Squelettique",
+        "option_a": "VRAI",
+        "option_b": "FAUX",
+        "option_c": "",
+        "correct_option": "a"
+    },
+    {
+        "id": "8.9",
+        "question_text": "Pour affiler la lame du sécateur, on déplace l’affiloir sur le biseau de la lame :",
+        "option_a": "Par rotations successives",
+        "option_b": "D’une façon rectiligne",
+        "option_c": "En appuyant fermement sur l’affiloir",
+        "correct_option": "b"
+    },
+    {
+        "id": "8.10",
+        "question_text": "Le palissage, c’est le travail qui consiste à :",
+        "option_a": "Passer les rameaux entre les fils et les redresser",
+        "option_b": "Supprimer les grappes de raisin en excès",
+        "option_c": "Traiter la vigne contre les maladies",
+        "correct_option": "a"
+    },
+    {
+        "id": "9.1",
+        "question_text": "Le nombre d’yeux francs doit être inférieur ou égal à :",
+        "option_a": "14 par mètre carré",
+        "option_b": "18 par mètre carré",
+        "option_c": "22 par mètre carré",
+        "correct_option": "b"
+    },
+    {
+        "id": "9.2",
+        "question_text": "Un chevauchement c’est lorsqu’un :",
+        "option_a": "Un sarment taillé se situe au-dessus du cep suivant",
+        "option_b": "Un sarment taillé se situe au-dessus d’un autre sarment du même\npied",
+        "option_c": "Un sarment est taillé au-delà de la réglementation",
+        "correct_option": "a"
+    },
+    {
+        "id": "9.3",
+        "question_text": "A quelle hauteur maximale est situé le fil permettant le liage de l’extrémité du prolongement de chardonnay taillé en chablis ?",
+        "option_a": "40 cm",
+        "option_b": "60 cm",
+        "option_c": "70 cm",
+        "correct_option": "b"
+    },
+    {
+        "id": "9.4",
+        "question_text": "L’écartement minimum entre les pieds est de :",
+        "option_a": "1,20 m",
+        "option_b": "0,70 m",
+        "option_c": "0,90 m",
+        "correct_option": "b"
+    },
+    {
+        "id": "9.5",
+        "question_text": "La charge maximale du prolongement d’un Cordon de Royat en Pinot Noir, Pinot Blanc, Pinot Gris est de :",
+        "option_a": "3 yeux",
+        "option_b": "5 yeux",
+        "option_c": "4 yeux",
+        "correct_option": "b"
+    },
+    {
+        "id": "9.6",
+        "question_text": "La charge maximale d’un courson en guyot simple est de :",
+        "option_a": "2 yeux francs",
+        "option_b": "3 yeux francs",
+        "option_c": "4 yeux francs",
+        "correct_option": "b"
+    },
+    {
+        "id": "9.7",
+        "question_text": "Lorsqu’on fait une rentrure dans une variante de la Vallée de la Marne, quel est le nombre d’yeux du courson sur la souche ?",
+        "option_a": "1 oeil franc",
+        "option_b": "2 yeux francs",
+        "option_c": "3 yeux francs",
+        "correct_option": "b"
+    },
+    {
+        "id": "9.8",
+        "question_text": "Un tailleur donne chaque jour un nombre important de coups de sécateur, environ combien ?",
+        "option_a": "1 000 à 5 000",
+        "option_b": "5 000 à 10 000",
+        "option_c": "10 000 à 15 000",
+        "correct_option": "c"
+    },
+    {
+        "id": "9.9",
+        "question_text": "L’entretien du sécateur se limite à l’affilage.",
+        "option_a": "VRAI",
+        "option_b": "FAUX",
+        "option_c": "",
+        "correct_option": "b"
+    },
+    {
+        "id": "9.10",
+        "question_text": "Un cep court – noué est atteint par :",
+        "option_a": "Un insecte",
+        "option_b": "Un champignon",
+        "option_c": "Un virus",
+        "correct_option": "c"
+    },
+    {
+        "id": "10.1",
+        "question_text": "Un oeil franc est un bourgeon séparé de l’empattement du sarment ou « couronne » :",
+        "option_a": "Quelle que soit la longueur du mérithalle",
+        "option_b": "Si le mérithalle mesure au moins 1 cm",
+        "option_c": "Si le mérithalle mesure au moins 4 cm",
+        "correct_option": "a"
+    },
+    {
+        "id": "10.2",
+        "question_text": "Une superposition c’est :",
+        "option_a": "Le bois à fruit d’un pied superposant un autre pied",
+        "option_b": "Le bois à fruit d’un pied superposant d’autres bois à fruit du même pied",
+        "option_c": "Un sarment taillé au-delà de la réglementation",
+        "correct_option": "b"
+    },
+    {
+        "id": "10.3",
+        "question_text": "La taille chablis est autorisée :",
+        "option_a": "Pour tous les cépages",
+        "option_b": "Pour le Chardonnay uniquement",
+        "option_c": "Pour le Meunier uniquement",
+        "correct_option": "a"
+    },
+    {
+        "id": "10.4",
+        "question_text": "Pour le Meunier, taillé en chablis, quel est le nombre maximal de charpentes par cep dans une plantation à 1 m 20 ?",
+        "option_a": "4 charpentes et un lancement",
+        "option_b": "2/3 des souches à 4 charpentes et 1/3 des souches à 3",
+        "option_c": "4 charpentes",
+        "correct_option": "c"
+    },
+    {
+        "id": "10.5",
+        "question_text": "La charge maximale du prolongement d’un Cordon de Royat en Chardonnay, Meunier, Arbane et Petit Meslier est de :",
+        "option_a": "3 yeux",
+        "option_b": "4 yeux",
+        "option_c": "5 yeux",
+        "correct_option": "c"
+    },
+    {
+        "id": "10.6",
+        "question_text": "La charge d’une baguette de guyot simple est de :",
+        "option_a": "Non limitée",
+        "option_b": "De 8 yeux francs maximum",
+        "option_c": "De 10 yeux francs maximum",
+        "correct_option": "c"
+    },
+    {
+        "id": "10.7",
+        "question_text": "Quel est le nom du bois de 1 an lancé à partir du courson sur la souche ?",
+        "option_a": "La charpente",
+        "option_b": "Le prolongement",
+        "option_c": "La baguette",
+        "correct_option": "c"
+    },
+    {
+        "id": "10.8",
+        "question_text": "Je veux planter à 1,50 m entre rangs et 2 m sur le rang, est-ce possible ?",
+        "option_a": "Oui",
+        "option_b": "Non",
+        "option_c": "",
+        "correct_option": "b"
+    },
+    {
+        "id": "10.9",
+        "question_text": "Les bois « américains » :",
+        "option_a": "Sont sensibles au phylloxéra",
+        "option_b": "Sont à conserver lors de la taille",
+        "option_c": "Sont issus du porte greffe",
+        "correct_option": "c"
+    },
+    {
+        "id": "10.10",
+        "question_text": "Quelle est la période du cycle annuel de la vigne durant laquelle se déroule la taille ?",
+        "option_a": "Repos hivernal",
+        "option_b": "Croissance herbacée",
+        "option_c": "Véraison",
+        "correct_option": "a"
+    },
+    {
+        "id": "11.1",
+        "question_text": "La charge c’est :",
+        "option_a": "Le nombre de sarments laissés à la taille",
+        "option_b": "Le nombre d’yeux laissés sur un cep à la taille",
+        "option_c": "Le poids de raisin par cep à la vendange",
+        "correct_option": "b"
+    },
+    {
+        "id": "11.2",
+        "question_text": "Quelle est la charge maximale de la baguette lancée dans la Vallée de la Marne, lorsque la baguette n’est pas renouvelée tous les ans ?",
+        "option_a": "8 yeux francs",
+        "option_b": "9 yeux francs",
+        "option_c": "10 yeux francs",
+        "correct_option": "a"
+    },
+    {
+        "id": "11.3",
+        "question_text": "La longueur d’une charpente en Cordon de Royat est :",
+        "option_a": "de 1 m 50",
+        "option_b": "Non limitée",
+        "option_c": "Fonction de la distance de plantation",
+        "correct_option": "b"
+    },
+    {
+        "id": "11.4",
+        "question_text": "Donner la signification du sigle T.M.S.",
+        "option_a": "Tension des Muscles et du Squelette",
+        "option_b": "Tendinite à Moyenne Sensibilité",
+        "option_c": "Troubles Musculo Squelettiques",
+        "correct_option": "c"
+    },
+    {
+        "id": "11.5",
+        "question_text": "En chablis et quel que soit le cépage, le rachet est taillé au maximum à :",
+        "option_a": "1 yeux francs",
+        "option_b": "2 yeux francs",
+        "option_c": "3 yeux francs",
+        "correct_option": "b"
+    },
+    {
+        "id": "11.6",
+        "question_text": "Le cépage Arbane ne peut pas être taillé en :",
+        "option_a": "Chablis",
+        "option_b": "Cordon de Royat",
+        "option_c": "Vallée de la Marne",
+        "correct_option": "c"
+    },
+    {
+        "id": "11.7",
+        "question_text": "Pour affiler la lame du sécateur, on déplace l’affiloir :",
+        "option_a": "De la base de la lame vers la pointe",
+        "option_b": "De la pointe de la lame vers la base",
+        "option_c": "",
+        "correct_option": "a"
+    },
+    {
+        "id": "11.8",
+        "question_text": "Pour quel cépage est autorisé le chablis couché (3 charpentes, distance entre souches de 1 m 20 minimum) ?",
+        "option_a": "Chardonnay",
+        "option_b": "Pinot Noir",
+        "option_c": "Meunier",
+        "correct_option": "c"
+    },
+    {
+        "id": "11.9",
+        "question_text": "Pour diminuer les risques de T.M.S. il est conseillé d’utiliser des outils adéquats (coupe souche, scie, affiloir…).",
+        "option_a": "VRAI",
+        "option_b": "FAUX",
+        "option_c": "",
+        "correct_option": "a"
+    },
+    {
+        "id": "11.10",
+        "question_text": "Quelle est la charge maximale du lancement d’un chablis en Meunier ?",
+        "option_a": "non limitée",
+        "option_b": "4 yeux francs",
+        "option_c": "5 yeux francs",
+        "correct_option": "c"
     }
 ]
