@@ -19,16 +19,10 @@ async function loadJSON() {
 }
 
 // Mélanger les questions
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
-}
 function shuffleQuestions() {
-    shuffleArray(questions); 
-    questions = questions.slice(0, 10); // Sélectionner les 10 premières questions après le mélange
-}
+    questions.sort(() => 0.5 - Math.random()); // Mélange le tableau aléatoirement
+    questions = questions.slice(0, 10); // Sélectionne les 10 premières questions
+  }
 
 // Afficher une question
 function displayQuestion() {
