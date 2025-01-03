@@ -1,6 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    font-family: 'Roboto', sans-serif; /* Police sans empattement pour le corps du texte */
+    background-color: #222; /* Noir */
+    color: #eee; /* Gris clair */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,37 +10,43 @@ body {
 }
 
 #quiz-container {
-    background-color: #fff;
-    padding: 20px;
+    background-color: #333; /* Gris foncé */
+    padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ombre portée plus prononcée */
+    width: 60%; /* Largeur légèrement augmentée */
 }
 
 h1 {
     text-align: center;
-    font-size: 24px;
+    font-size: 30px; /* Titre plus grand */
+    font-family: 'Playfair Display', serif; /* Police avec empattement pour le titre */
+    color: #d4af37; /* Or */
+    margin-bottom: 20px;
 }
 
 button {
     width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    background-color: #4CAF50;
-    color: white;
+    padding: 12px; /* Padding augmenté */
+    margin: 10px 0; /* Marge augmentée */
+    background-color: #555; /* Gris foncé */
+    color: #eee;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold; /* Texte en gras */
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #777; /* Gris plus clair au survol */
 }
 
 #next-button {
-    background-color: #2196F3;
+    background-color: #d4af37; /* Or */
+    color: #222; /* Texte noir sur fond or */
 }
 
 #next-button:hover {
-    background-color: #0b7dda;
+    background-color: #b08d2e; /* Or plus foncé au survol */
 }

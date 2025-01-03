@@ -20,12 +20,12 @@ async function loadJSON() {
 
 // Mélanger les questions
 function shuffleQuestions() {
-    questions = questions.sort(() => 0.5 - Math.random());
+    questions = random.sample(questions, 10); // Sélectionner 10 questions aléatoires
 }
 
 // Afficher une question
 function displayQuestion() {
-    if (currentQuestionIndex >= questions.length) {
+    if (currentQuestionIndex >= 10) { // Vérifier si 10 questions ont été posées
         endQuiz();
         return;
     }
@@ -79,7 +79,7 @@ function nextQuestion() {
 function endQuiz() {
     document.getElementById('question').textContent = 'Quiz terminé !';
     document.getElementById('options').innerHTML = '';
-    document.getElementById('score').textContent = `Votre score : ${score}/${questions.length}`;
+    document.getElementById('score').textContent = `Votre score : ${score}/10`; // Afficher le score sur 10
     document.getElementById('next-button').style.display = 'none';
     document.getElementById('restart-button').style.display = 'block';
 }
