@@ -6,6 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-weight: bold;
     margin: 0;
 }
 
@@ -17,7 +18,7 @@ body {
 }
 
 .logos img {
-    max-width: 200px;  /* Ajustez la taille si nécessaire */
+    max-width: 100px;  /* Ajustez la taille si nécessaire */
     height: auto;
 }
 
