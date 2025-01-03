@@ -39,16 +39,16 @@ function displayQuestion() {
     const optionsContainer = document.getElementById('options');
     optionsContainer.innerHTML = '';
 
-    // Créer les boutons pour les options
-    ['a', 'b', 'c'].forEach(option => {
-        const optionKey = `option_${option}`;
-        if (currentQuestion[optionKey]) {
-            const button = document.createElement('button');
-            button.textContent = currentQuestion[optionKey];
-            button.onclick = () => checkAnswer(option);
-            optionsContainer.appendChild(button);
-        }
-    });
+  // Créer les boutons pour les options (corrigé)
+  ['a', 'b', 'c'].forEach((option, index) => { 
+      const optionKey = `option_${option}`;
+      if (currentQuestion[optionKey]) {
+          const button = document.createElement('button');
+          button.textContent = `${option.toUpperCase()}) ${currentQuestion[optionKey]}`; // Ajoute A), B), C) 
+          button.onclick = () => checkAnswer(option);
+          optionsContainer.appendChild(button);
+      }
+  });
 }
 
 // Vérifier la réponse
@@ -82,7 +82,7 @@ function nextQuestion() {
     document.getElementById('next-button').style.display = 'none';
     updateScoreDisplay(); // Mettre à jour l'affichage du score
   }
-  
+
 // Fin du quiz
 function endQuiz() {
     document.getElementById('question').textContent = 'Quiz terminé !';
