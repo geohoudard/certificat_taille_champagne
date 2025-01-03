@@ -28,7 +28,7 @@ h1 {
 }
 
 button {
-    width: 50%;
+    width: 55%;
     padding: 12px; /* Padding augmenté */
     margin: 10px 0; /* Marge augmentée */
     background-color: #555; /* Gris foncé */
@@ -60,9 +60,9 @@ button:hover {
     background-color: #333; /* Même couleur que le quiz-container */
     padding: 10px;
     display: flex;
-    justify-content: space-between; /* Espace entre les logos et le score */
-    align-items: center;
-  }
+    justify-content: center; /* Centre les logos horizontalement */
+    align-items: center; 
+}
   
   .logos {
     display: flex;
@@ -70,11 +70,14 @@ button:hover {
   }
   
   .logos img {
-    max-height: 40px; /* Ajustez la hauteur des logos */
+    max-height: 60px; /* Ajustez la hauteur des logos */
     margin-left: 10px; /* Espace entre les logos */
   }
   
   #score {
     font-size: 18px;
     margin-right: 20px; /* Espace à droite du score */
+    display: flex;
+    justify-content: center; /* Centre les logos horizontalement */
+    align-items: center; 
   }
