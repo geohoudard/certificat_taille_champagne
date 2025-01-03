@@ -65,8 +65,14 @@ function checkAnswer(selectedOption) {
         resultContainer.textContent = `Mauvaise réponse. La bonne réponse était : ${correctOption}.`;
     }
 
+    updateScoreDisplay(); // Mettre à jour l'affichage du score
     document.getElementById('next-button').style.display = 'block';
 }
+
+// Fonction pour mettre à jour l'affichage du score
+function updateScoreDisplay() {
+    document.getElementById('score').textContent = `Score : ${score}/10`; 
+  }
 
 // Passer à la question suivante
 function nextQuestion() {
@@ -74,8 +80,9 @@ function nextQuestion() {
     document.getElementById('result').textContent = '';
     displayQuestion();
     document.getElementById('next-button').style.display = 'none';
-}
-
+    updateScoreDisplay(); // Mettre à jour l'affichage du score
+  }
+  
 // Fin du quiz
 function endQuiz() {
     document.getElementById('question').textContent = 'Quiz terminé !';

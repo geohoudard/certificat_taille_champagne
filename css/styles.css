@@ -10,24 +10,13 @@ body {
     margin: 0;
 }
 
-.logos {
-    display: flex;
-    justify-content: space-around; /* Espace les logos uniformément */
-    align-items: center; /* Aligner verticalement au centre */
-    margin-bottom: 20px; 
-}
-
-.logos img {
-    max-width: 100px;  /* Ajustez la taille si nécessaire */
-    height: auto;
-}
-
 #quiz-container {
     background-color: #333; /* Gris foncé */
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ombre portée plus prononcée */
     width: 60%; /* Largeur légèrement augmentée */
+    padding-bottom: 60px; /* Espace pour le pied de page */
 }
 
 h1 {
@@ -63,3 +52,29 @@ button:hover {
 #next-button:hover {
     background-color: #b08d2e; /* Or plus foncé au survol */
 }
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Même couleur que le quiz-container */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Espace entre les logos et le score */
+    align-items: center;
+  }
+  
+  .logos {
+    display: flex;
+    align-items: center; /* Aligner les logos verticalement */
+  }
+  
+  .logos img {
+    max-height: 40px; /* Ajustez la hauteur des logos */
+    margin-left: 10px; /* Espace entre les logos */
+  }
+  
+  #score {
+    font-size: 18px;
+    margin-right: 20px; /* Espace à droite du score */
+  }
