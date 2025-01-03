@@ -87,6 +87,7 @@ function endQuiz() {
 
 // Recommencer le quiz
 function restartQuiz() {
+    shuffleQuestions(); // Mélanger les questions ici !
     currentQuestionIndex = 0;
     score = 0;
     document.getElementById('restart-button').style.display = 'none';
